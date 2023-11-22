@@ -1,0 +1,46 @@
+/* Reset some default styles and set a common font family */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+}
+
+/* Style figure elements for images */
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add more CSS for styling sections, images, and other elements */
