@@ -1,0 +1,90 @@
+/* styles/default.css */
+
+/* styles/default.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce5cd; /* Light peach */
+}
+
+header {
+    background-color: #2e3d58; /* Dark blue */
+    color: #f0f8ff; /* Alice blue */
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #2e3d58; /* Dark blue */
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #f0f8ff; /* Alice blue */
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ffb6c1; /* Light pink on hover */
+    color: #2e3d58; /* Dark blue on hover */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White */
+    box-shadow: 0 0 20px rgba(46, 61, 88, 0.1); /* Dark blue shadow */
+}
+
+h1 {
+    color: #e74c3c; /* Red */
+    text-transform: uppercase;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2, h3, h4 {
+    color: #2e3d58; /* Dark blue */
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #333; /* Dark gray */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Add more styles as needed */
