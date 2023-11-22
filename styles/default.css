@@ -1,0 +1,293 @@
+body {
+    background-color: rgb(199, 199, 137);
+  }
+  
+  h1 {
+    color:white;
+    text-align:center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  a{
+    color:green;
+
+  }
+
+  h3{
+   font-size: 50px;
+   color: greenyellow;
+   text-align: center;
+
+
+
+  }
+  header, h2, footer {
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+  ul{
+   color:rgb(0, 187, 255);
+   font-style: bold;
+
+  }
+  p{
+    color:black;
+  }
+
+  h4{
+   color: green;
+   text-align:center;
+   font-size:30px;
+
+  }
+
+  h5{
+    color:aliceblue;
+    text-align:left;
+    font-size:10px;
+
+
+  }
+
+  button{
+
+   background-color: green;
+   color:white;
+   text-align: center;
+
+  }
+
+  input[type=text] {
+    color:black;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=email] {
+    color:white;
+    width: 30%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+  }
+
+  input[type=tel] {
+    color:white;
+    width: 30%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    color:white;
+    width: 30%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .img{
+      max-width: 100%; /* Ensure images don't exceed the container width */
+  }
+}
+
+@media (min-width: 576px) {
+  .input{
+      margin: 10px; /* Adjust margins as needed for small devices */
+  }
+}
+
+#title{
+
+  background-color: black;
+  text-align: center;
+}
+
+#projectname{ 
+  color:rgb(49, 109, 194);
+  text-align:left;
+  font-size:20px;
+
+
+}
+
+#projectoverview{
+  color:rgb(49, 109, 194);
+  text-align:left;
+  font-size:20px;
+
+}
+
+#description{
+
+  color:black;
+  font-size:18px;
+  text-align:left;
+}
+
+ul{
+  color:black;
+  font-size:18px;
+
+}
+
+#users{
+  color:rgb(49, 109, 194);
+  text-align:left;
+  font-size:20px;
+
+
+}
+
+#overview{
+  color:rgb(49, 109, 194);
+  text-align:left;
+  font-size:20px;
+
+
+}
+
+#sec{
+  color:rgb(49, 109, 194);
+  text-align:left;
+  font-size:18px;
+
+
+}
+
+#javascript{
+  color: rgb(58, 220, 235);
+  background-color:black;
+  font-size: 40px;
+  text-align: center;
+}
+
+#whoweare{
+  color:black;
+  font-weight: bold;
+  text-align:left;
+  font: size 24px;
+
+}
+
+#Whoweare{
+  color:black;
+  text-align: left;
+  font-size: 16px;
+  
+}
+
+#whychooseus{
+  color:black;
+  font-weight: bold;
+  text-align:left;
+  font: size 24px;
+
+}
+
+#Whychooseus{
+  color:black;
+  text-align: left;
+  font-size: 16px;
+  
+
+
+}
+
+#whoisouraudience{
+  color:black;
+  font-weight: bold;
+  text-align:left;
+  font: size 24px;
+
+}
+
+#Whoisouraudience{
+  color:black;
+  text-align: left;
+  font-size: 16px;
+  
+}
+
+#member{
+  color: rgb(58, 220, 235);
+  background-color: black;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+/* Style the <pre> element that contains code */
+pre {
+  background-color: #f4f4f4; /* Background color for the code block */
+  padding: 10px; /* Add some padding to separate code from the border */
+  border: 1px solid #ddd; /* Add a border around the code block */
+  border-radius: 5px; /* Add rounded corners for better aesthetics */
+  overflow-x: auto; /* Add horizontal scroll if the code is too wide */
+}
+
+/* Style the <code> element within the <pre> element */
+pre code {
+  font-family: "Courier New", Courier, monospace; /* Choose a monospace font */
+  font-size: 14px; /* Set the font size */
+  color: #333; /* Set the text color */
+}
+
+/* Style the code syntax highlighting (optional) */
+.token.comment {
+  color: #888;
+}
+
+.token.keyword {
+  color: #0077c2;
+}
+
+/* Define additional styles for different syntax tokens as needed */
+
+firstday{color: rgb(58, 220, 235);
+  background-color:black;
+  font-size: 40px;
+  text-align: center;
+
+
+}
