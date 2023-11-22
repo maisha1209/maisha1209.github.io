@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/default.css">
+    <title>Maisha Alam's Majestic Mouse || Arrays Activity</title>
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+    <main>
+    <h1>Arrays Activity</h1>
+    
+    <label for="employeeSelect">Select Employee:</label>
+    <select id="employeeSelect">
+        <option value="John">John</option>
+        <option value="Jane">Jane</option>
+        <!-- Add other employees as needed -->
+    </select>
+
+    <button onclick="addSalary()">Add Salary</button>
+    <button onclick="displayResults()">Display Results</button>
+    <button onclick="displaySalary()">Display Salary</button>
+
+    <div id="results">
+        <!-- Display results here -->
+    </div>
+
+    <table id="results_table">
+        <!-- Display salary table here -->
+    </table>
+    </main>
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+
+    <script src="scripts/arrays.js"></script>
+</body>
+</html>
